@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Convert data from SAC reports to XML format to deliver to VMM",
   "main": "index.js",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
