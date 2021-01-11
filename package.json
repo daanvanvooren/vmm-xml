@@ -1,0 +1,29 @@
+{
+  "name": "vmm-xml",
+  "version": "1.0.0",
+  "description": "Convert data from SAC reports to XML format to deliver to VMM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temmermans/vmm-xml.git"
+  },
+  "author": "Simon Temmerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temmermans/vmm-xml/issues"
+  },
+  "homepage": "https://github.com/Temmermans/vmm-xml#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "csvtojson": "^2.0.10",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "xmlbuilder": "^15.1.1"
+  }
+}
