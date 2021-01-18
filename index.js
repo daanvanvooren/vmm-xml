@@ -55,7 +55,7 @@ inquirer
             process.exit();
           }
 
-          const tree1 = utils.buildTreePRTO001(data);
+          const tree1 = utils.buildTreePRTO001(parsedData1);
           const xml1 = utils.buildXMLPRTO001(tree1);
           files.writeFile(dir, xml1);
           break;
