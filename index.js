@@ -18,7 +18,7 @@ const questions = [
     name: "csv",
     type: "input",
     message: "Enter the path to the Porteau csv file:",
-    default: "./data/PRTO005.csv",
+    default: "./data/PRTO002.csv",
     validate: function (value) {
       if (value.slice(-3) !== "csv") return chalk.red("Search for a valid csv file!");
       if (files.fileExists(value)) {
